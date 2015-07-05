@@ -17,15 +17,13 @@ do
       clear
       if [ "$CURRENT" != "" ]
       then
-        echo "--- $CURRENT ---" 
         PREVIOUS=$CURRENT
         $IMAGE_VIEWER $COVERS_DIR/$CURRENT 
       else
+        echo "::: NO COVER ART :::" 
         PREVIOUS=""
       fi
     fi   
     sleep 1
 done
 
-# how to find cover art on music brainz:
-# http://stackoverflow.com/questions/13453678/how-to-get-album-image-using-musicbrainz
