@@ -5,5 +5,5 @@ Installation
 ------------
 
 ```shell
-curl https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/install.sh | bash
+curl https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/install_osx.sh | bash
 ```
