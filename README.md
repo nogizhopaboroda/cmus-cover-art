@@ -24,16 +24,16 @@ Installation
 
 * Go to cmus home directory (`~/.cmus` or `~/.config/cmus`)
 
-* Install plugin here using installation script (os x only)
-
-```shell
-curl https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/install_osx.sh | bash
-```
-
-  or manually:
+* Clone repository
 
 ```shell
 git clone git@github.com:nogizhopaboroda/cmus-cover-art.git
+cd cmus-cover-art
+```
+
+* Install plugin here using installation script (os x only)
+```shell
+sh install.sh
 ```
 
 * Set your image viewer in `display.sh`
