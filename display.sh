@@ -6,7 +6,7 @@ COVERS_DIR="$CURRENT_DIR/.cover"
 PREVIOUS=""
 CURRENT=""
 
-IMAGE_VIEWER="./imgcat"
+IMAGE_VIEWER="$CURRENT_DIR/imgcat"
 
 clear
 while (true)
