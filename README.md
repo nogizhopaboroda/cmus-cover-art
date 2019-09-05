@@ -1,51 +1,49 @@
 # cmus-cover-art
+
 Experimental [Cmus](https://github.com/cmus/cmus) plugin for displaying cover arts
 
-***
-**NOTE: works only in terminals which support image view** 
-
-**OS X**: last builds of iTerm2
-
-**Linux**: [info](http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures)
-***
-
-Demo
-----
+## Demo
 
 ![alt text](https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/demo.gif "Demo")
 
-Dependencies
-------------
+### Dependencies
 
-`ffmpeg`
+-   `ffmpeg`
 
-Installation
-------------
+#### macOS
 
-* Go to cmus home directory (`~/.cmus` or `~/.config/cmus`)
+-   iTerm2 (3.x+)
 
-* Clone repository
+#### Linux
 
-```shell
-git clone git@github.com:nogizhopaboroda/cmus-cover-art.git
-cd cmus-cover-art
-```
+[info](http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures)
 
-* Install plugin here using installation script (os x only)
-```shell
-sh install.sh
-```
+> **📝 NOTE:** Only works with image view supported terminals
 
-* Set your image viewer in `display.sh`
+### Installation
 
-```bash
-IMAGE_VIEWER="_your_image_viewer_"
-```
+1.  Go to cmus home directory (`~/.cmus` or `~/.config/cmus`)
+1.  Clone repository
 
-* Set `observe.sh` as `status_display_program`
+    ```shell script
+    git clone https://github.com/nogizhopaboroda/cmus-cover-art.git
+    cd cmus-cover-art
+    ```
 
-[example](https://github.com/cmus/cmus/wiki/status-display-programs#usage--installation)
+1.  _(macOS only)_ Install plugin here using installation script
 
+    ```shell script
+    sh install.sh
+    ```
 
-* Run `display.sh`
+1.  Set your image viewer in `display.sh`
+
+    ```shell script
+    IMAGE_VIEWER="<your-image-viewer>"
+    ```
+
+1.  Set `observe.sh` as `status_display_program`
+    -   [example](https://github.com/cmus/cmus/wiki/status-display-programs#usage--installation)
+
+1.  Run `display.sh`
 
