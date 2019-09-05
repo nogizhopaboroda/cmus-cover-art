@@ -2,6 +2,8 @@
 
 Experimental [Cmus](https://github.com/cmus/cmus) plugin for displaying cover arts
 
+> **📝 NOTE:** Only works with image view supported terminals
+
 ## Demo
 
 ![alt text](https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/demo.gif "Demo")
@@ -16,9 +18,7 @@ Experimental [Cmus](https://github.com/cmus/cmus) plugin for displaying cover ar
 
 #### Linux
 
-[info](http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures)
-
-> **📝 NOTE:** Only works with image view supported terminals
+-   [info](http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures)
 
 ### Installation
 
