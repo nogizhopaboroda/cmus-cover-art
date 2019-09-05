@@ -8,19 +8,19 @@ Experimental [Cmus](https://github.com/cmus/cmus) plugin for displaying cover ar
 
 ![alt text](https://raw.githubusercontent.com/nogizhopaboroda/cmus-cover-art/master/demo.gif "Demo")
 
-### Dependencies
+## Dependencies
 
 -   `ffmpeg`
 
-#### macOS
+### macOS
 
 -   iTerm2 (3.x+)
 
-#### Linux
+### Linux
 
 -   [info](http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures)
 
-### Installation
+## Installation
 
 1.  Go to cmus home directory (`~/.cmus` or `~/.config/cmus`)
 1.  Clone repository
