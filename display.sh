@@ -1,12 +1,11 @@
 #!/bin/sh
-
 CURRENT_DIR=`dirname "$BASH_SOURCE"`
 COVERS_DIR="$CURRENT_DIR/.cover"
 
 PREVIOUS=""
 CURRENT=""
 
-IMAGE_VIEWER="$CURRENT_DIR/imgcat"
+IMAGE_VIEWER="kitty +kitten icat --place 70x70@0x0 --scale-up"
 
 clear
 while (true)
@@ -19,7 +18,7 @@ do
       if [ "$CURRENT" != "" ]
       then
         PREVIOUS=$CURRENT
-        $IMAGE_VIEWER $COVERS_DIR/$CURRENT &
+        $IMAGE_VIEWER "$COVERS_DIR/$CURRENT"
       else
         echo "::: NO COVER ART :::" 
         PREVIOUS=""
@@ -27,4 +26,3 @@ do
     fi   
     sleep 1
 done
-
